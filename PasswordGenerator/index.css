@@ -1,0 +1,163 @@
+html, body {
+   
+    position: absolute;
+    width: 600px;
+    height: 800px;
+    left: 62px;
+    top: 64px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    background: #1F2937;
+    }
+    
+    #header{
+        
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 118px;
+    
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    
+    letter-spacing: 0px;
+    
+    /* white */
+    
+    color: #FFFFFF;
+
+    }
+    #gen-txt{
+        padding: none;
+    }
+    #subtitle{
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 270px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+   
+
+    color: #D5D4D8;
+    }
+        
+    
+    #pass-txt{
+        position: absolute;
+        width: 354px;
+        height: 80px;
+        top: 80px;
+        
+        color:aquamarine;
+        padding: none;
+        margin: none;
+    }
+
+    #line{
+        position: absolute;
+        width: 445px;
+        height: 20px;
+        left: 52px;
+        top: 395px;
+	    height: 1px;
+	    background:#2E3D52;
+
+    }
+    
+
+    #generate{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 9px 17px 9px 15px;
+        gap: 12px;
+        
+        position: absolute;
+        width: 180px;
+        height: 20px;
+        left: 52px;
+        top: 350px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: #FFFFFF;
+        background: #10B981;
+        /* shadow/sm */
+        
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+    }
+    #pass-len{
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        left: 280px;
+        top: 350px;
+        border-radius: 30px;
+        background:#2E3D52;
+        text-align: center;
+        font-weight: bold;
+        color: aquamarine;
+        
+       
+    }
+
+    #pass-1{
+        position: absolute;
+        width: 211px;
+        height: 39px;
+        left: 52px;
+        top: 401px;
+        background: #273549;
+        border-radius: 6px;
+        text-align: center;
+        font-weight: bold;
+        color: #55F991;
+    }
+    #pass-2{
+        position: absolute;
+        width: 211px;
+        height: 39px;
+        left: 287px;
+        top: 401px;
+         background: #273549;
+        border-radius: 6px;
+        text-align: center;
+        font-weight: bold;
+        color: #55F991;
+    
+    }
+    #pass-3{
+        position: absolute;
+        width: 211px;
+        height: 39px;
+        left: 52px;
+        top: 450px;
+        background: #273549;
+        border-radius: 6px;
+        text-align: center;
+        font-weight: bold;
+        color: #55F991;
+
+    }
+    #pass-4{
+        position: absolute;
+        width: 211px;
+        height: 39px;
+        left: 287px;
+        top: 450px;
+        background: #273549;
+        border-radius: 6px;
+        text-align: center;
+        font-weight: bold;
+        color: #55F991;
+    }
